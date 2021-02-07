@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.InitBinder;
 @Controller
 @RequiredArgsConstructor
 public class AccountController {
-    //private final SignUpFormValidator signUpFormValidator;
-//    private final AccountService accountService;
+    private final SignUpFormValidator signUpFormValidator;
+    private final AccountService accountService;
 
-//    @InitBinder("singUpForm")
-//    public void initBinder(WebDataBinder webDataBinder){webDataBinder.addValidators(signUpFormValidator);}
+    @InitBinder("singUpForm")
+    public void initBinder(WebDataBinder webDataBinder){webDataBinder.addValidators(signUpFormValidator);}
 
     @GetMapping("/sign-up")
     public String signupForm(Model model){

@@ -1,0 +1,37 @@
+package clone.studyolle.app.study.event;
+
+import clone.studyolle.app.config.AppProperties;
+import clone.studyolle.app.study.Study;
+import clone.studyolle.app.repository.AccountRepository;
+import clone.studyolle.app.repository.NotificationRepository;
+import clone.studyolle.app.study.StudyRepository;
+import clone.studyolle.app.service.EmailService;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.context.event.EventListener;
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.stereotype.Component;
+import org.thymeleaf.TemplateEngine;
+
+import javax.transaction.Transactional;
+
+@Slf4j
+@Async
+@Component
+@Transactional
+@RequiredArgsConstructor
+public class StudyEventListener {
+
+    private final StudyRepository studyRepository;
+    private final AccountRepository accountRepository;
+    private final EmailService emailService;
+    private final TemplateEngine templateEngine;
+    private final AppProperties appProperties;
+    private final NotificationRepository notificationRepository;
+
+    @EventListener
+    public void handleStudyCreatedEvent(StudyCreatedEvent studyCreatedEvent) {
+      //  Study study= studyRepository.
+
+    }
+}
