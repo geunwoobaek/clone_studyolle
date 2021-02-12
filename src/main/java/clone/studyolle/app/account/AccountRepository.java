@@ -1,6 +1,6 @@
-package clone.studyolle.app.repository;
+package clone.studyolle.app.account;
 
-import clone.studyolle.app.domain.Account;
+import clone.studyolle.app.account.Account;
 import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;

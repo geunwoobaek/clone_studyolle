@@ -1,7 +1,7 @@
 package clone.studyolle.app.validator;
 
 import clone.studyolle.app.form.SignUpForm;
-import clone.studyolle.app.repository.AccountRepository;
+import clone.studyolle.app.account.AccountRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;

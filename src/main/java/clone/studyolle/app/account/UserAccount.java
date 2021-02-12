@@ -1,10 +1,8 @@
 package clone.studyolle.app.account;
 
-import clone.studyolle.app.domain.Account;
 import lombok.Getter;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.List;
 

@@ -1,9 +1,8 @@
-package clone.studyolle.app.utils;
+package clone.studyolle.app.account;
 
-import clone.studyolle.app.domain.Account;
-import clone.studyolle.app.repository.AccountRepository;
+import clone.studyolle.app.account.Account;
+import clone.studyolle.app.account.AccountRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component

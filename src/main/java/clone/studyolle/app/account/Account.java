@@ -1,5 +1,7 @@
-package clone.studyolle.app.domain;
+package clone.studyolle.app.account;
 
+import clone.studyolle.app.domain.Tag;
+import clone.studyolle.app.domain.Zone;
 import lombok.*;
 
 import javax.persistence.*;

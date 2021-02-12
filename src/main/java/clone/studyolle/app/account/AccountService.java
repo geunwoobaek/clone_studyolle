@@ -1,14 +1,12 @@
-package clone.studyolle.app.service;
+package clone.studyolle.app.account;
 
-import clone.studyolle.app.account.UserAccount;
 import clone.studyolle.app.config.AppProperties;
-import clone.studyolle.app.domain.Account;
 import clone.studyolle.app.domain.Zone;
 import clone.studyolle.app.email.EmailMessage;
 import clone.studyolle.app.form.Notifications;
 import clone.studyolle.app.form.Profile;
 import clone.studyolle.app.form.SignUpForm;
-import clone.studyolle.app.repository.AccountRepository;
+import clone.studyolle.app.service.EmailService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;

@@ -1,7 +1,6 @@
-package clone.studyolle.app.controller;
+package clone.studyolle.app.account;
 
 import clone.studyolle.app.form.SignUpForm;
-import clone.studyolle.app.service.AccountService;
 import clone.studyolle.app.validator.SignUpFormValidator;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;

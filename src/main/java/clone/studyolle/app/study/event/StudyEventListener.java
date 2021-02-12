@@ -1,8 +1,7 @@
 package clone.studyolle.app.study.event;
 
 import clone.studyolle.app.config.AppProperties;
-import clone.studyolle.app.study.Study;
-import clone.studyolle.app.repository.AccountRepository;
+import clone.studyolle.app.account.AccountRepository;
 import clone.studyolle.app.repository.NotificationRepository;
 import clone.studyolle.app.study.StudyRepository;
 import clone.studyolle.app.service.EmailService;

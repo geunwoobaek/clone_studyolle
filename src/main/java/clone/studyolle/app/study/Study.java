@@ -1,7 +1,7 @@
 package clone.studyolle.app.study;
 
 import clone.studyolle.app.account.UserAccount;
-import clone.studyolle.app.domain.Account;
+import clone.studyolle.app.account.Account;
 import clone.studyolle.app.domain.Tag;
 import clone.studyolle.app.domain.Zone;
 import lombok.*;

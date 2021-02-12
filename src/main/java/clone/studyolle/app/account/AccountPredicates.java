@@ -1,4 +1,4 @@
-package clone.studyolle.app.repository;
+package clone.studyolle.app.account;
 
 import clone.studyolle.app.domain.*;
 import com.querydsl.core.types.Predicate;
