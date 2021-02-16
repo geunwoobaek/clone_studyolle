@@ -1,4 +1,5 @@
 package clone.studyolle.app.modules.notification;
 
-public class NotificationType {
+public enum NotificationType {
+    STUDY_CREATED, STUDY_UPDATED, EVENT_ENROLLMENT;
 }
