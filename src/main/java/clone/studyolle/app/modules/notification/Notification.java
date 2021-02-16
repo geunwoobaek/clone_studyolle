@@ -18,6 +18,10 @@ public class Notification {
     private Account account;
     private LocalDateTime createdDateTime;
     private Boolean checked = false;
+    private String title;
+    private String link;
+    private String message;
     @Enumerated(EnumType.STRING)
     private NotificationType notificationType;
+
 }
